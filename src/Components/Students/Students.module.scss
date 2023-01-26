@@ -1,0 +1,12 @@
+.list {
+  margin: 0;
+  grid-column: 1 / 4;
+  display: grid;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  justify-self: end;
+}

@@ -1,0 +1,85 @@
+.button {
+  cursor: pointer;
+  height: 76px;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: background linear 0.2s, border linear 0.2s, box-shadow linear 0.2s,
+    color linear 0.2s;
+
+  &Color {
+    &White {
+      background: rgba(#fff, 0.5);
+      border: 1px solid #fff;
+      box-shadow: 0px 0px 20px #d9f6ff;
+      color: #008cb8;
+
+      &:hover {
+        background: #008cb8;
+        border: 1px solid #009fd1;
+        box-shadow: 0px 0px 20px #008cb8;
+        color: #fff;
+      }
+
+      &:active {
+        background: #fff;
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 20px #fff;
+        color: #008cb8;
+      }
+    }
+
+    &Blue {
+      background: #008cb8;
+      border: 1px solid #009fd1;
+      box-shadow: 0px 0px 20px #c9f2ff;
+      color: #fff;
+
+      &:hover {
+        background: #fff;
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 20px #fff;
+        color: #008cb8;
+      }
+
+      &:active {
+        background: #008cb8;
+        border: 1px solid #009fd1;
+        box-shadow: 0px 0px 20px #c9f2ff;
+        color: #fff;
+      }
+    }
+  }
+
+  &Size {
+    &Small {
+      width: 170px;
+    }
+
+    &Medium {
+      width: 300px;
+    }
+
+    &Large {
+      width: 360px;
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background: #d5d5d5;
+    border: none;
+    color: #fff;
+  }
+}
+
+.textSize {
+  &Small {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &Large {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}

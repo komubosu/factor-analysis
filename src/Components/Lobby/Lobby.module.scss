@@ -1,0 +1,19 @@
+.lobby {
+  margin: auto;
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 32px;
+  width: fit-content;
+}
+
+.title {
+  padding-right: 112px;
+  margin: 0;
+  max-width: 424px;
+  color: #00607e;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+}

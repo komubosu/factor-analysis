@@ -1,0 +1,28 @@
+.login {
+  box-sizing: border-box;
+  width: 562px;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  background: rgba(#fff, 0.5);
+  box-shadow: 0px 0px 20px #d9f6ff;
+}
+
+.field {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+  margin: 0;
+  color: #008cb8;
+  font-size: 16px;
+  line-height: 20px;
+  transition: opacity linear 0.2s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

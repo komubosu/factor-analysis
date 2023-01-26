@@ -1,0 +1,58 @@
+.searchbar {
+  position: relative;
+  background: rgba($color: #fff, $alpha: 0.5);
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px #d9f6ff;
+  padding: 28px;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: auto 300px;
+  gap: 28px;
+}
+
+.button {
+  cursor: pointer;
+  background: center no-repeat url(../../images/loop.svg) #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px #d9f6ff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 28px;
+  right: calc(28px + 300px + 28px);
+  height: 76px;
+  width: 90px;
+
+  &:hover {
+    box-shadow: 0 0 20px #008cb8;
+  }
+}
+
+.input {
+  font-size: 24px;
+  line-height: 29px;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px #d9f6ff;
+  border-radius: 20px;
+  height: 76px;
+  outline: none;
+  color: #209ac1;
+
+  &::placeholder {
+    font-size: 24px;
+    line-height: 29px;
+    color: #b6bcbe;
+  }
+
+  &:hover {
+    box-shadow: 0 0 20px #008cb8;
+  }
+
+  &:focus {
+    box-shadow: 0 0 10px #008cb8;
+  }
+}

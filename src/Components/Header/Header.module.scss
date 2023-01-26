@@ -1,0 +1,49 @@
+.header {
+  height: 100px;
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  grid-auto-flow: column;
+}
+
+.title {
+  margin: 0;
+  color: #00607e;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.account {
+  cursor: pointer;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 20px;
+
+  &:hover {
+    .text {
+      text-decoration: underline;
+    }
+
+    .avatar {
+      box-shadow: 0 0 20px #008cb8;
+    }
+  }
+}
+
+.text {
+  margin: 0;
+  color: #008cb8;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.avatar {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background: #fff center no-repeat url(../../images/avatar-placeholder.svg);
+}
